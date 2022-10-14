@@ -93,7 +93,7 @@ if(isset($_POST["submit"]))
 
 ?> -->
 <?php
-include 'smtp.php';
+include 'APIv3-php-library-master/smtp.php';
 $mailin = new Mailin('tectignisitsolutions@gmail.com', 'Om2rkzEaA7N5Mcf4');
 $mailin->
 addTo('tectignisitsolutions@gmail.com', 'Govind Bavkar');
